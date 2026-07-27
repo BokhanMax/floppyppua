@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f0f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e2e8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#00000018" />
+    </filter>
+    <filter id="cardshadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000014" />
+    </filter>
+  </defs>
+
+  <!-- Фон -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Декоративні кола -->
+  <circle cx="80"   cy="90"  r="190" fill="#047857" opacity="0.05" />
+  <circle cx="1120" cy="540" r="230" fill="#047857" opacity="0.05" />
+  <circle cx="1090" cy="70"  r="120" fill="#0071e3" opacity="0.04" />
+
+  <!-- Сітка -->
+  <g stroke="#b0b0be" stroke-width="0.5" opacity="0.12">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="240"  y1="0" x2="240"  y2="630" />
+    <line x1="480"  y1="0" x2="480"  y2="630" />
+    <line x1="720"  y1="0" x2="720"  y2="630" />
+    <line x1="960"  y1="0" x2="960"  y2="630" />
+  </g>
+
+  <!-- ===== ЦЕНТРАЛЬНА ПОСЛІДОВНІСТЬ ===== -->
+
+  <!-- Крок 1: Запис -->
+  <g filter="url(#cardshadow)">
+    <rect x="60" y="270" width="140" height="120" rx="14" fill="#ffffff" />
+  </g>
+  <text x="130" y="320" font-family="'Arial', sans-serif" font-size="12" font-weight="700" fill="#1a1a2e" text-anchor="middle">Запис</text>
+  <text x="130" y="336" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Game Bar</text>
+  <text x="130" y="356" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Game Bar</text>
+
+  <!-- Стрілка 1→2 -->
+  <g stroke="#047857" stroke-width="2.5" fill="none" opacity="0.6">
+    <line x1="202" y1="330" x2="258" y2="330" />
+    <polygon points="258,330 248,325 248,335" fill="#047857" opacity="0.6" />
+  </g>
+
+  <!-- Крок 2: Монтаж -->
+  <g filter="url(#cardshadow)">
+    <rect x="260" y="270" width="140" height="120" rx="14" fill="#ffffff" />
+  </g>
+  <text x="330" y="320" font-family="'Arial', sans-serif" font-size="12" font-weight="700" fill="#1a1a2e" text-anchor="middle">Монтаж</text>
+  <text x="330" y="336" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">DaVinciResolve</text>
+  <text x="330" y="361" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">DaVinciResolve</text>
+
+  <!-- Стрілка 2→3 -->
+  <g stroke="#047857" stroke-width="2.5" fill="none" opacity="0.6">
+    <line x1="402" y1="330" x2="458" y2="330" />
+    <polygon points="458,330 448,325 448,335" fill="#047857" opacity="0.6" />
+  </g>
+
+  <!-- Крок 3: Конвертація -->
+  <g filter="url(#cardshadow)">
+    <rect x="460" y="270" width="140" height="120" rx="14" fill="#ffffff" />
+  </g>
+  <text x="530" y="320" font-family="'Arial', sans-serif" font-size="12" font-weight="700" fill="#1a1a2e" text-anchor="middle">Конвертація</text>
+  <text x="530" y="336" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">ShutterEncoder</text>
+  <text x="530" y="361" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">ShutterEncoder</text>
+
+  <!-- Стрілка 3→4 -->
+  <g stroke="#047857" stroke-width="2.5" fill="none" opacity="0.6">
+    <line x1="602" y1="330" x2="658" y2="330" />
+    <polygon points="658,330 648,325 648,335" fill="#047857" opacity="0.6" />
+  </g>
+
+  <!-- Крок 4: Звук -->
+  <g filter="url(#cardshadow)">
+    <rect x="660" y="270" width="140" height="120" rx="14" fill="#ffffff" />
+  </g>
+  <text x="730" y="320" font-family="'Arial', sans-serif" font-size="12" font-weight="700" fill="#1a1a2e" text-anchor="middle">Звук</text>
+  <text x="730" y="336" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Audacity</text>
+  <text x="730" y="361" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Audacity</text>
+
+  <!-- Стрілка 4→5 -->
+  <g stroke="#047857" stroke-width="2.5" fill="none" opacity="0.6">
+    <line x1="802" y1="330" x2="858" y2="330" />
+    <polygon points="858,330 848,325 848,335" fill="#047857" opacity="0.6" />
+  </g>
+
+  <!-- Крок 5: Результат -->
+  <g filter="url(#cardshadow)">
+    <rect x="860" y="270" width="140" height="120" rx="14" fill="#ffffff" />
+  </g>
+  <text x="930" y="320" font-family="'Arial', sans-serif" font-size="12" font-weight="700" fill="#1a1a2e" text-anchor="middle">Готово</text>
+  <text x="930" y="336" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">MP4 / YouTube</text>
+  <text x="930" y="361" font-family="'Arial', sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">MP4 / YouTube</text>
+
+  <!-- ===== НИЖНЯ ІНФОРМАЦІЯ ===== -->
+  <!-- Кінечні формати -->
+  <g filter="url(#cardshadow)">
+    <rect x="180" y="430" width="840" height="72" rx="12" fill="#f0fdf4" />
+  </g>
+  <text x="600" y="453" font-family="'Arial', sans-serif" font-size="13" font-weight="700" fill="#047857" text-anchor="middle">Популярні формати: MP4 (Х.264) · MOV · MKV · AVI · WebM</text>
+  <text x="600" y="475" font-family="'Arial', sans-serif" font-size="12" fill="#374151" text-anchor="middle">H.265 економить місце вдвічі · AV1 — найсучасніший, але довший експорт</text>
+
+  <!-- ===== ЗАГОЛОВОК ===== -->
+  <text x="600" y="90" font-family="'Arial', sans-serif" font-size="36" font-weight="700" fill="#1a1a2e" text-anchor="middle">Запис, монтаж, конвертація</text>
+  <text x="600" y="130" font-family="'Arial', sans-serif" font-size="18" fill="#4b5563" text-anchor="middle">все для роботи з відео на Windows</text>
+  <line x1="320" y1="150" x2="880" y2="150" stroke="#047857" stroke-width="2" opacity="0.3" />
+
+  <!-- Лого -->
+  <text x="600" y="600" font-family="'Arial', sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle">floppy.pp.ua · безкоштовний софт для Windows</text>
+</svg>
